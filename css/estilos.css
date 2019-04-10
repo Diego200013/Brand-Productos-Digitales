@@ -14,3 +14,30 @@ html {
     font-size: 12px;
     font-family: Helvetica;
 }
+
+nav {
+    display: flex;
+    background-color: #7ACC2D;
+    padding: 10px;
+    color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: white;
+}
