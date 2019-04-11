@@ -175,3 +175,26 @@ hr {
 .mention img {
     width: 100%;
 }
+
+
+/*---------- footer */
+
+footer {
+    padding: 0 2em;
+    background-color: var(--black-color);
+}
+
+.informacion_contain {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacion_contain p a {
+    color: white;
+    text-decoration: none;
+}
+
+.informacion_contain p a:hover {
+    color: var(--green-color)
+}
