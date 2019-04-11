@@ -214,4 +214,11 @@ footer {
     .product {
         margin-top: auto;
     }
+    /*------ beneficios */
+    .benefits_contain .benefits {
+        display: block;
+    }
+    .descripcion_benefit_contain {
+        margin-top: 6em;
+    }
 }
