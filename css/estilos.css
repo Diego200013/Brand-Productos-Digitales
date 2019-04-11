@@ -7,6 +7,7 @@
 #  ·················
 */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 :root {
     --green-color: #7ACC2D;
     --white-color: #FFF;
@@ -18,7 +19,7 @@ html {
     padding: 0;
     margin: 0;
     font-size: 12px;
-    font-family: Helvetica;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
