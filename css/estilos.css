@@ -7,6 +7,12 @@
 #  ·················
 */
 
+:root {
+    --green-color: #7ACC2D;
+    --white-color: #FFF;
+    --black-color: #000;
+}
+
 body,
 html {
     padding: 0;
@@ -17,9 +23,9 @@ html {
 
 nav {
     display: flex;
-    background-color: #7ACC2D;
+    background-color: var(--green-color);
     padding: 10px;
-    color: #FFF;
+    color: var(--white-color);
     justify-content: space-between;
     align-items: center;
 }
@@ -34,10 +40,10 @@ nav ul li {
 }
 
 nav li a {
-    color: #000;
+    color: var(--black-color);
     text-decoration: none;
 }
 
 nav li a:hover {
-    color: white;
+    color: var(--white-color);
 }
