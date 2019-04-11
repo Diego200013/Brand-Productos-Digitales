@@ -221,4 +221,15 @@ footer {
     .descripcion_benefit_contain {
         margin-top: 6em;
     }
+    /*------ mentions */
+    .mentions_contain .mentions {
+        display: block;
+    }
+    .mentions .mention {
+        width: 80%;
+        margin: 5% auto;
+    }
+    .descripcion_mention_contain {
+        padding: 2%;
+    }
 }
