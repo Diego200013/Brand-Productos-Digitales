@@ -11,6 +11,10 @@
 
 /*--------------Variables */
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --green-color: #7ACC2D;
     --white-color: #FFF;
@@ -105,7 +109,7 @@ nav li a:hover {
 /*------------Benefits */
 
 .benefits_contain {
-    padding: 10%;
+    padding: 10% 10% 2%;
 }
 
 .benefits_contain .benefits {
@@ -132,4 +136,42 @@ nav li a:hover {
 
 .descripcion_benefit_contain {
     margin-top: 1.5em;
+}
+
+
+/*----------mentions*/
+
+hr {
+    height: 1px;
+    color: #c1bcbc;
+    background-color: #c1bcbc;
+    border: none;
+}
+
+.mentions_contain {
+    font-size: 12px;
+    padding: 5%;
+    text-align: center;
+}
+
+.mentions_contain h2 {
+    font-size: 2em;
+}
+
+.mentions_contain .mentions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.mentions .mention {
+    width: 20%;
+    margin: 10px;
+    box-shadow: 0 3px 6px grey;
+}
+
+.mention img {
+    width: 100%;
 }
