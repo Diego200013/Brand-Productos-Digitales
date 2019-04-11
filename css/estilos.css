@@ -7,6 +7,15 @@
 #  ·················
 */
 
+
+/*--------------Variables */
+
+:root {
+    --green-color: #7ACC2D;
+    --white-color: #FFF;
+    --black-color: #000;
+}
+
 body,
 html {
     padding: 0;
@@ -17,9 +26,9 @@ html {
 
 nav {
     display: flex;
-    background-color: #7ACC2D;
+    background-color: var(--green-color);
     padding: 10px;
-    color: #FFF;
+    color: var(--white-color);
     justify-content: space-between;
     align-items: center;
 }
@@ -34,10 +43,57 @@ nav ul li {
 }
 
 nav li a {
-    color: #000;
+    color: var(--black-color);
     text-decoration: none;
 }
 
 nav li a:hover {
-    color: white;
+    color: var(--white-color);
+}
+
+
+/*------------- Main section */
+
+.content_initial {
+    padding: 15%;
+    text-align: center;
+}
+
+.products {
+    background-image: url("../images/curve.png");
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+
+.product {
+    padding: 10px;
+    margin-top: -240px;
+}
+
+.product .content {
+    background-color: var(--white-color);
+    padding: 10px;
+    box-shadow: 0 0 1px #c1bcbc;
+}
+
+.image_content {
+    text-align: center;
+}
+
+.main_button {
+    background-color: var(--green-color);
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: var(--white-color);
+    border: 0;
+    border-radius: 2px;
+}
+
+.main_button:hover {
+    background-color: #5e9e22;
+    cursor: pointer;
 }
